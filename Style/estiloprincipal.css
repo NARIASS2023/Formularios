@@ -18,6 +18,12 @@
   width: 100px;
 }
 
+.titulo_cabecera{
+ position: absolute;
+ top: 40px;
+ left: 150px;
+}
+
 
 
 
