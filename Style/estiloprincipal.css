@@ -7,3 +7,13 @@
   overflow: hidden;
 }
 
+.cabecera{
+  display: flex;
+  justify-content: space-between;
+  postion: relative;
+  height: 220px; 
+}
+
+
+
+
