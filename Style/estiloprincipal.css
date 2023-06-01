@@ -58,12 +58,27 @@
   width: 600px;
   height: 350px;
   overflow: hidden;
-  background: #8EC01D;
 }
 
+.lienzo_contenedor{
+  display: flex;
+  width: 7000px;
+  height: 50px;
+  transition: transform 1s ease-in;
+  will-change: transform; 
+}
 
+.elemento1:checked ~ .lienzo_contenedor{
+  transform: translatex(0px);
+}
 
+.elemento2:checked ~ .lienzo_contenedor{
+  transform: translatex(-600px);
+}
 
+.elemento3:checked ~ .lienzo_contenedor{
+  transform: translatex(-1200px);
+}
 
 
 
