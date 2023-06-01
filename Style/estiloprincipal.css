@@ -77,7 +77,7 @@
 }
 
 .elemento3:checked ~ .lienzo_contenedor{
-  transform: translatex(-1200px);
+  transform: translatex(-1400px);
 }
 
 .controles{
