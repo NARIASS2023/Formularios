@@ -114,7 +114,10 @@
   align-content: space-between;
   flex-flow: wrap;
   border: solid;
-  border-radius: 15px;
+  border-radius:  10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+   border: 0px solid #000000;
   overflow:hidden;
 }
 
