@@ -12,7 +12,7 @@
   justify-content: space-between;
   postion: relative;
   height: 170px; 
-  background: #0D035B;
+  background-image: src("Imagenes/fondopagina.png");
 }
 
 .cabecera img{
